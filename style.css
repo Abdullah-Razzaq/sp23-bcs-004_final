@@ -1,0 +1,123 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+.mainpage {
+    background-image: url(./imagesB/images/templatemo_slide_2.jpg);
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 800px;
+}
+.header{
+    margin-top: 50px;
+    margin-left: 115px;
+    background-color: grey;
+    position: relative;
+    height: 100px;
+    width: 80%;
+    display: flex;
+}
+.header img{
+    margin-top: 20px;
+    display: inline;
+    width: 200px;
+    height: 50px;
+}
+.header ul{
+
+    list-style-type: none;
+    margin-left: 400px;  
+    margin-top: 35px;  
+}
+.header li{
+    
+    display: inline;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.header a{
+    color: black;
+    text-decoration: none;
+}
+.header li:hover{
+    background-color: green;
+}
+.content{
+    background-color: grey;
+    border: 2px solid black;
+    position: absolute;
+    margin-top: 400px;
+    margin-right: 900px;
+    margin-left: 115px;
+    padding: 20px 20px 20px 20px;
+}
+.content h2{
+    text-align: center;
+    
+}
+.content div{
+    background-color: green;
+    margin-left: 110px;
+    width: 80px;
+    border: 2px solid green;
+    text-align: center;
+    font-weight: bolder;
+}
+.nav{
+    background-color: red;
+    display: flex;
+    position: absolute;
+    margin-top: 800px;
+    display: inline;
+    width: 100%;
+    height: 50px;
+
+}
+.nav a{
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    width: 30px;
+    height: 50px;
+    border: 2px soid blue;
+    background-color: gray;
+    margin-left: 200px ;
+}
+.images{
+    margin-top: 850px;
+    position: absolute;
+
+}
+.images img{
+    margin-left: 40px;
+    padding-bottom: 40px;
+}
+.partners{
+    margin-left: 150px;
+    width: 80%;
+    position: absolute;
+    margin-top: 1100px;
+    background-color: grey;
+
+}
+.partners img{
+    margin-left: 60px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    margin-top: 1300px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+.footer img{
+ 
+   margin-bottom: 100px;
+}
+.footer p{
+    margin-left: 590px;
+}
